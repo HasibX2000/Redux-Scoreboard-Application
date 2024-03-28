@@ -91,7 +91,11 @@ body {
 .container .scoreboard .match-container .match .input-area .total-count {
   background: rgb(0, 211, 248);
   font-weight: 600;
-  padding: 3px 20px;
+  padding: 3px 0;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 15px;
   color: #000;
   border-radius: 10px;
@@ -100,7 +104,7 @@ body {
   background: #182234;
 }
 .container .scoreboard .match-container .match:nth-child(2n+2) {
-  background: #263653;
+  background: rgb(17, 27, 46);
 }
 .container .scoreboard .bottom-bar {
   background: #1e293b;

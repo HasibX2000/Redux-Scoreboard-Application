@@ -1,6 +1,6 @@
 $color1: #1e293b;
 $color2: #182234;
-$color3: #263653;
+$color3: rgb(17, 27, 46);
 $text: #f7f1e3;
 $text2: #d1ccc0;
 
@@ -96,7 +96,11 @@ body {
           .total-count {
             background: rgb(0, 211, 248);
             font-weight: 600;
-            padding: 3px 20px;
+            padding: 3px 0;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 15px;
             color: #000;
             border-radius: 10px;
